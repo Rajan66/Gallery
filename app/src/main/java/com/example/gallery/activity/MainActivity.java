@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements ImageClickListene
             ActivityCompat.requestPermissions(MainActivity.this,
                     new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
                     MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE);
-            Toast.makeText(MainActivity.this, "Sorry... Please reopen the app", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Sorry... Please reopen the app", Toast.LENGTH_LONG).show();
 
         }
         else
