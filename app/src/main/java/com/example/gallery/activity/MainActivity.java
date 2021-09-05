@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity implements ImageClickListene
         ArrayList<String> picPaths = new ArrayList<>();
         Uri allImagesUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI;
 
-       /* if you put internal_content_uri instead it will get the photos from the system
+       /* if you put internal_content_uri instead it will get the photos from the system like wallpapers...
         external_content_uri means the content from the internal storage and external storage
         basically system makes two partition in the internal storage, one to hold data that system
         requires and another for the user to use.*/
