@@ -15,7 +15,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.gallery.utils.FullscreenFragment2;
-import com.example.gallery.utils.PictureBrowser;
 import com.example.gallery.utils.CalculateColumn;
 import com.example.gallery.utils.ImageClickListener;
 import com.example.gallery.utils.ImageDisplayAdapter;
@@ -111,8 +110,7 @@ public class ImageDisplay extends AppCompatActivity implements ImageClickListene
 //        bundle.putString("imageName",pics.get(position).getImageName());
 //        bundle.putString("imageSize", pics.get(position).getImageSize());
 
-        PictureBrowser pictureBrowser = PictureBrowser.newInstance(pics, position, ImageDisplay.this);
-        pictureBrowser.setArguments(bundle);
+
 
         FullscreenFragment2 fullscreenFragment2 = new FullscreenFragment2();
         fullscreenFragment2.setArguments(bundle);
